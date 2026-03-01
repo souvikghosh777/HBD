@@ -247,9 +247,10 @@ body {
 .countdown-value {
     font-size: clamp(2.5rem, 6vw, 4rem);
     font-weight: 700;
-    color: var(--neon-glow);
-    text-shadow: 0 0 10px var(--neon-glow),
-                 0 0 20px var(--neon-glow);
+    color: #0055ff;
+    text-shadow: 0 0 10px #0055ff,
+                 0 0 25px #0055ff,
+                 0 0 50px #0099ff;
     font-family: 'Courier New', monospace;
 }
 
