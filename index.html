@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Day ✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Starry Background -->
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+    
+    <!-- Floating Hearts Container -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Music Control -->
+    <div class="music-control" id="musicControl">
+        <span class="music-play-icon" id="musicPlayIcon">▶️</span>
+        <span class="music-text" id="musicText">Play Music</span>
+    </div>
+    
+    <!-- Main Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-text-1" id="heroText1">
+                Today is not just a day...
+            </h1>
+            
+            <h1 class="hero-text-2" id="heroText2">
+                It's the day my favorite person was born.
+            </h1>
+            
+            <div class="heart-portal" id="heartPortal">
+                <svg class="heart-svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+                <p class="heart-hint">Click the heart to enter</p>
+            </div>
+            
+            <div class="countdown-section" id="countdownSection">
+                <div class="countdown-container">
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="days">00</span>
+                        <span class="countdown-label">Days</span>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="hours">00</span>
+                        <span class="countdown-label">Hours</span>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="minutes">00</span>
+                        <span class="countdown-label">Minutes</span>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="seconds">00</span>
+                        <span class="countdown-label">Seconds</span>
+                    </div>
+                </div>
+                <div class="birthday-message" id="birthdayMessage">
+                    🎉 IT'S YOUR DAY ❤️
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="main-content" id="mainContent">
+        <div class="name-reveal-section">
+            <h2 class="typewriter" id="typewriter">
+                Happy Birthday, <span class="highlight-name">Beautiful</span>
+            </h2>
+        </div>
+        
+        <div class="memory-cards-section">
+            <h3 class="section-title">Our Special Memories</h3>
+            <div class="cards-container">
+                <div class="memory-card" data-section="photo">
+                    <div class="card-icon">📸</div>
+                    <h4>Our First Photo</h4>
+                    <p>The moment it all began</p>
+                    <div class="card-glow"></div>
+                </div>
+                
+                <div class="memory-card" data-section="moment">
+                    <div class="card-icon">😂</div>
+                    <h4>Funniest Moment</h4>
+                    <p>Laughs that made us closer</p>
+                    <div class="card-glow"></div>
+                </div>
+                
+                <div class="memory-card" data-section="message">
+                    <div class="card-icon">💌</div>
+                    <h4>Secret Message</h4>
+                    <p>Words from the heart</p>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Motivational Book Button -->
+        <div class="motivation-book-section">
+            <button class="motivation-book-btn" id="motivationBookBtn">
+                <span class="book-icon">📖</span>
+                <span class="book-text">Open Your Motivation Book</span>
+                <span class="book-subtitle">Words to inspire your special day</span>
+            </button>
+        </div>
+        
+        <div class="content-section" id="photo">
+            <h3 class="section-title">📸 Our First Photo</h3>
+            <div class="photo-container">
+                <div class="photo-placeholder">
+                    <p>Add your special photo here</p>
+                    <small>Replace with actual image in CSS</small>
+                </div>
+                <p class="photo-caption">This is where it all started...</p>
+            </div>
+        </div>
+        
+        <div class="content-section" id="moment">
+            <h3 class="section-title">😂 Our Funniest Moment</h3>
+            <div class="moment-container">
+                <p class="moment-text">
+                    Remember when we... [Add your funny memory here]
+                </p>
+            </div>
+        </div>
+        
+        <div class="content-section" id="message">
+            <h3 class="section-title">💌 A Message For You</h3>
+            <div class="message-container">
+                <p class="secret-message">
+                    On this special day, I want you to know how much you mean to me.
+                    Every moment with you is a treasure, and I'm grateful for every laugh,
+                    every smile, and every memory we've created together.
+                    <br><br>
+                    Happy Birthday to the most amazing person I know! ✨
+                </p>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p class="footer-text">Made with Love by <span class="footer-name">[Your Name]</span> ❤️</p>
+            <div class="sparkles">✨</div>
+        </footer>
+    </section>
+    
+    <audio id="backgroundMusic" loop>
+        <source src="song.mp4" type="video/mp4">
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
